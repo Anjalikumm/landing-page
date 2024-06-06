@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #FF6347;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section#home {
+    text-align: center;
+    background-color: #FFDAB9;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+section#products {
+    background-color: #FFFACD;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+.product {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+    margin: 0.5em 0;
+}
+
+section#about {
+    background-color: #E0FFFF;
+    padding: 1.5em;
+    border-radius: 10px;
+}
+
+section#contact {
+    background-color: #E6E6FA;
+    padding: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #FF6347;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e5533d;
+}
+
+footer {
+    background-color: #FF6347;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
